@@ -45,7 +45,8 @@ class Client {
                 },
                 body: JSON.stringify(i)
             })
-        }) 
+        })
+        this.pessoas = [];
     }
 }
 
